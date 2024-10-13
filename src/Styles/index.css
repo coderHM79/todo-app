@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('../assets/Fonts/MontserratRegular.ttf');
+}
+
+:root {
+    --fontFamily: Montserrat, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fontFamily);
+}
